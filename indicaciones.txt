@@ -1,0 +1,17 @@
+2.	Crea el código para imprimir lo siguiente:
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
+
+
+------------------------------------------
+
+3.	Si ya lograste resolver el caso anterior, usemos la misma url que creaste y hagamos el proceso de consumir esos datos con JS
